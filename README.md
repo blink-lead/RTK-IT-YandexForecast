@@ -1,6 +1,6 @@
 # Тестовое задание РТК ИТ
 
-<img src="https://media.giphy.com/media/K3hpGCoCeMlBLd9KCe/giphy.gif" width="500">
+![](https://media.giphy.com/media/K3hpGCoCeMlBLd9KCe/giphy.gif)
 
 <hr>
 
