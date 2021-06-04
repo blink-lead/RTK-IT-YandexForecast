@@ -1,5 +1,9 @@
 # Тестовое задание РТК ИТ
 
+<img src="https://media.giphy.com/media/K3hpGCoCeMlBLd9KCe/giphy.gif" width="500">
+
+<hr>
+
 Вам предлагается реализовать приложение, отображающее погоду. Источник данных — API Яндекс.Погода. Ссылка на документацию: https://yandex.ru/dev/weather/doc/dg/concepts/forecast-info-docpage/
 
 #### Ограничения:
