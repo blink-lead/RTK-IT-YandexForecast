@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="4ga-3l-gqo">
+                                <rect key="frame" x="82.666666666666671" y="286.66666666666669" width="248.66666666666663" height="248.66666666666669"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="4ga-3l-gqo" secondAttribute="height" multiplier="1:1" id="5lg-nM-dxJ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="LaunchScreenYandexWeatherProviderLogo" image="YandexWeatherProviderLogo" translatesAutoresizingMaskIntoConstraints="NO" id="nfz-CD-7lw">
+                                <rect key="frame" x="135.66666666666666" y="848" width="142.99999999999997" height="28"/>
+                                <accessibility key="accessibilityConfiguration" identifier="LaunchScreenYandexWeatherProviderLogo">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nfz-CD-7lw" secondAttribute="height" multiplier="143:28" id="7i6-Gg-Pwc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Данные предоставлены сервисом" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="And-wE-7qp">
+                                <rect key="frame" x="84" y="820" width="246" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="LoadingScreenBackground"/>
+                        <constraints>
+                            <constraint firstItem="4ga-3l-gqo" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-37" id="ALO-dZ-6gC"/>
+                            <constraint firstItem="nfz-CD-7lw" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.345411" id="Hqk-wI-VF3"/>
+                            <constraint firstItem="nfz-CD-7lw" firstAttribute="top" secondItem="And-wE-7qp" secondAttribute="bottom" constant="10" id="PXk-Fj-oqT"/>
+                            <constraint firstItem="4ga-3l-gqo" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.6" id="T5y-sB-A3d"/>
+                            <constraint firstAttribute="bottom" secondItem="nfz-CD-7lw" secondAttribute="bottom" constant="20" id="lxF-jo-gvy"/>
+                            <constraint firstItem="nfz-CD-7lw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="raN-xJ-mwF"/>
+                            <constraint firstItem="4ga-3l-gqo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="t8H-SA-Kaf"/>
+                            <constraint firstItem="And-wE-7qp" firstAttribute="centerX" secondItem="nfz-CD-7lw" secondAttribute="centerX" id="ucv-7t-PS7"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="512" height="512"/>
+        <image name="YandexWeatherProviderLogo" width="143" height="28"/>
+        <namedColor name="LoadingScreenBackground">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
